@@ -1,0 +1,15 @@
+# Default behavior
+# Normalize line endings
+# Language detection rules
+yarn.lock linguist-generated
+*.sh text eol=lf 
+*.ts linguist-detectable   
+*.jpg binary
+Cargo.lock linguist-generated
+public/* linguist-vendored
+*.tsx linguist-detectable
+
+package-lock.json linguist-generated
+*.gif binary
+*.map linguist-generated
+public/**/*.html linguist-vendored
